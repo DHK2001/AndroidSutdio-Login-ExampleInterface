@@ -70,15 +70,22 @@ public class LoginActivity extends AppCompatActivity {
                 saveData();
 
             boolean login = true;
-            if(login){
+            if(validAccount(usernameText.getText().toString(), passwordText.getText().toString())){
                 alert.showSuccess("Login Success");
-
                 Intent intent = new Intent(this, HomeActivity.class);
                 startActivity(intent);
             }else{
                 alert.showError("Login Failed");
             }
 
+        }
+    }
+
+    private boolean validAccount(String username, String password){
+        if (username.equals("test") && password.equals("test")){
+            return true;
+        }else{
+            return false;
         }
     }
 
