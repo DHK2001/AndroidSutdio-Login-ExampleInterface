@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    
+    <color name="my_primary">#5E35B1</color>
+    <color name="my_secondary">#673AB7</color>
+
+    <color name="error">#FF0000</color>
+    <color name="success">#28A01F</color>
+
+    <color name="selected">#3B9AFF</color>
+</resources>
